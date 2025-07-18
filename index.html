@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan's Mini Project</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- Tailwind -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- header content -->
+    <header class="flex justify-between items-center p-4 bg-yellow-200">
+    <!-- logo -->
+    <div class="h-16 w-16 bg-[url('https://picsum.photos/200')] rounded-full bg-center bg-cover"></div>
+
+    <nav class="flex">
+        <a class="border rounded-[8px] py-[1px] px-[4px] text-decoration-none" href="#home-page">Home</a>
+        <a class="border rounded-[8px] py-[1px] px-[4px] text-decoration-none" href="#our-profile">Our Profile</a>
+        <a class="border rounded-[8px] py-[1px] px-[4px] text-decoration-none" href="#message-us">Message Us</a>
+    </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <!-- home content -->
+         <section id="home-page">
+            <header>
+               <h1 class="text-2xl font-bold text-center">Welcome <span id="welcome-user">[user]</span> to our website</h1>
+           </header>
+
+         <div>
+            <p class="text-center">Your one-stop solution for all your needs.</p>
+            <div class="banner-img">
+                
+            </div>
+         </div>
+         
+         
+         </section>
+        
+         
+        <hr />
+         
+         <!-- our profile -->
+         <section id="our-profile">
+            <header>
+                <h2 class="text-xl font-semibold text-center">Our Profile</h2>
+            </header>
+            
+            <article>
+                <p class="text-center">We are a team of dedicated professionals committed to providing the best service possible.</p>
+                <p class="text-center">Our mission is to deliver quality and excellence in everything we do.</p>
+            </article>
+         </section>
+
+         <hr />
+
+         <!-- message us -->
+         <section id="message-us"></section>
+
+         <header>
+                <h2 class="text-xl font-semibold text-center">Message Us</h2>
+         </header>
+
+         <div>
+         <form>
+            
+            <div class="flex flex-col items-center">
+                <label for="name" class="mb-5">Name:</label>
+                <input type="text" id="name-input" name="name" class="border rounded p-2 mb-4 w-1/2" required>
+
+                <button onclick="validateForm()" type="button" class="bg-blue-500 text-white rounded p-2">Send Message</button>
+            </div>
+         </form>
+         
+         <div id="message-us" class="text-center nt-4">Result</div>
+         </div>
+
+    </main>
+    <!-- footer content -->
+    <footer>
+        <p class="text-center text-gray-600 py-4">Farhan 2025 Mini Project. All rights reserved.</p>
+    </footer>
+
+    <!-- javascript external -->
+     <script src="js/script.js"></script>
+</body>
+</html>
